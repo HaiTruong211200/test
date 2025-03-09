@@ -1,4 +1,1 @@
-console.log("Hello");
-console.log("Hi");
-
-const a = 4;
+const b = 10;
