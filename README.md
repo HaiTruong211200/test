@@ -1,76 +1,99 @@
 Express Server
 
-Project Setup
+📌 Mô tả dự án
 
-Installation
+Dự án này là một server API được xây dựng bằng Express.js.
+
+📦 Công nghệ sử dụng
+
+Backend: Express.js, Node.js, MongoDB (hoặc PostgreSQL)
+
+Quản lý môi trường: dotenv
+
+Bảo mật: Helmet, CORS
+
+Xác thực: JWT (JSON Web Token)
+
+🔧 Cài đặt & Chạy dự án
+
+1. Clone dự án
+
+git clone https://github.com/your-username/project-name.git
+cd project-name
+
+2. Cài đặt dependencies
 
 npm install
 
-Running the Server
+3. Cấu hình biến môi trường
 
-npm start
+Tạo file .env và thêm các thông tin sau:
 
-Development Mode
+PORT=5000
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
+JWT_SECRET=your_jwt_secret_key
 
+4. Chạy server
+
+# Chạy chế độ production
+npm start 
+
+# Chạy chế độ development (hot reload với nodemon)
 npm run dev
 
-API Endpoints
+Server chạy tại: http://localhost:5000
 
-Health Check
+🚀 API Endpoints
 
-GET /api/health
+Method
 
-Response:
+Endpoint
 
-{
-  "status": "ok"
-}
+Mô tả
 
-Example Endpoint
+GET
 
-GET /api/example
+/api/v1/
 
-Response:
+Kiểm tra API hoạt động
 
-{
-  "message": "Hello, world!"
-}
+GET
 
-Project Structure
+/api/v1/users
 
-/project-root
-├── src
-│   ├── routes
-│   ├── controllers
-│   ├── middlewares
-│   ├── models
-│   ├── app.js
-│   ├── server.js
-├── package.json
-├── .env
-├── README.md
+Lấy danh sách users
 
-Environment Variables
+POST
 
-Create a .env file in the root directory and define:
+/api/v1/users
 
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/mydb
-JWT_SECRET=your_secret_key
+Tạo user mới
 
-Contributing
+PUT
 
-Fork the repository
+/api/v1/users/:id
 
-Create a feature branch (git checkout -b feature-branch)
+Cập nhật user
 
-Commit your changes (git commit -m 'Add new feature')
+DELETE
 
-Push to the branch (git push origin feature-branch)
+/api/v1/users/:id
 
-Open a Pull Request
+Xóa user
 
-License
+🛠️ Dev Tools
 
-This project is licensed under the MIT License.
+Nodemon: Reload server khi code thay đổi
+
+Postman: Test API dễ dàng
+
+Docker (tùy chọn): Deploy dễ dàng hơn
+
+🤝 Đóng góp
+
+Mọi đóng góp đều được hoan nghênh! Vui lòng tạo pull request nếu bạn muốn thêm tính năng hoặc sửa lỗi.
+
+📜 Giấy phép
+
+Dự án này được cấp phép theo MIT License.
 
