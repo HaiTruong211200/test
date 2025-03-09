@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://expressjs.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="120" alt="Express Logo" /></a>
+  <a href="https://expressjs.com/" target="blank"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*Jr3NFSKTfQWRUyjblBSKeg.png" width="120" alt="Express Logo" /></a>
 </p>
 
 # Express Server
