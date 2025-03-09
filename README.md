@@ -40,18 +40,6 @@ npm start    # Chạy chế độ production
 npm run dev  # Chạy chế độ development (hot reload với nodemon)
 ```
 
-🚀 **API Endpoints**
-
-```plaintext
-Method   | Endpoint          | Mô tả
----------|------------------|--------------------------------
-GET      | /api/v1/         | Kiểm tra API hoạt động
-GET      | /api/v1/users    | Lấy danh sách users
-POST     | /api/v1/users    | Tạo user mới
-PUT      | /api/v1/users/:id | Cập nhật user
-DELETE   | /api/v1/users/:id | Xóa user
-```
-
 🛠️ **Dev Tools**
 
 - **Nodemon:** Reload server khi code thay đổi
