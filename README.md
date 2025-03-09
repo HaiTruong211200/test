@@ -38,3 +38,58 @@ JWT_SECRET=your_jwt_secret_key
 
 npm start    # Chạy chế độ production
 npm run dev  # Chạy chế độ development (hot reload với nodemon)
+📡 Server chạy tại: http://localhost:5000
+
+🚀 API Endpoints
+
+Method
+
+Endpoint
+
+Mô tả
+
+GET
+
+/api/v1/
+
+Kiểm tra API hoạt động
+
+GET
+
+/api/v1/users
+
+Lấy danh sách users
+
+POST
+
+/api/v1/users
+
+Tạo user mới
+
+PUT
+
+/api/v1/users/:id
+
+Cập nhật user
+
+DELETE
+
+/api/v1/users/:id
+
+Xóa user
+
+🛠️ Dev Tools
+
+Nodemon: Reload server khi code thay đổi
+
+Postman: Test API dễ dàng
+
+Docker (tuỳ chọn): Deploy dễ dàng hơn
+
+🤝 Đóng góp
+
+Mọi đóng góp đều được hoan nghênh! Vui lòng tạo pull request nếu bạn muốn thêm tính năng hoặc sửa lỗi.
+
+📜 Giấy phép
+
+Dự án này được cấp phép theo MIT License.
